@@ -1,3 +1,23 @@
-.header { 
-    
+.header {
+	color: var(--white);
+	margin: 0 auto;
+	width: 100%;
 }
+
+.header .logoContainer span {
+	font-family: "Manrope", sans-serif;
+	font-size: 1.125rem;
+	line-height: 150%;
+	letter-spacing: 0;
+	border-bottom: 0.125rem var(--green) solid;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+
+.logoContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 3.5rem;
+}
+

@@ -1,12 +1,21 @@
 import styles from "./Header.module.css";
+import logo from "../assets/imgs/workit.svg";
+
 
 export function Header() {
 	return (
-    
-    <header className={styles.header}>
+		<header className={styles.header}>
+			<div className={styles.logoContainer}>
+				<div>
+					<img src={logo} alt="" />
+				</div>
 
-        <img src="./assets/imgs/workit.svg" alt="" />
-        <h1>Header</h1>
-    </header>
-    )
+				<div>
+					<span>Apply for access</span>
+				</div>
+			</div>
+
+			
+		</header>
+	);
 }
