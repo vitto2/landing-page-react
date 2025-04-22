@@ -5,6 +5,11 @@ import { Cta } from "./components/Cta";
 
 import circleLarge from "./assets/imgs/circles-large.svg";
 import circleSmall from "./assets/imgs/circles-small.svg";
+import workitBlack from "./assets/imgs/workit-black.svg";
+
+import facebook from "./assets/imgs/facebook.svg";
+import instagram from "./assets/imgs/instagram.svg";
+import twitter from "./assets/imgs/twitter.svg";
 
 import styles from "./App.module.css";
 import "./global.css";
@@ -46,9 +51,25 @@ function App() {
 			</section>
 			<section className={styles.ctaContainer}>
 				<Cta />
-
-				<div>
-					
+				<div className={styles.logoSocial}>
+					<img src={workitBlack} alt="" />
+					<ul>
+						<li>
+							<a href="">
+								<img src={facebook} alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src={twitter} alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src={instagram} alt="" />
+							</a>
+						</li>
+					</ul>
 				</div>
 			</section>
 		</div>
