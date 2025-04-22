@@ -1,0 +1,17 @@
+:root {
+	--green: #44ffa1;
+	--purple-900: #24053e;
+	--purple-500: #584d62;
+	--purple-100: #fcf8ff;
+	--white: #ffffff;
+}
+
+body {
+	background-color: var(--white);
+	--webkit-font-smoothing: antialiased;
+}
+
+body,
+button {
+	font-family: "Fraunces", serif;
+}
