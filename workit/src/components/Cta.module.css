@@ -1,8 +1,46 @@
-.ctaSection { 
-    width: 100%;
+.ctaSection {
+	width: 100%;
+	display: flex;
+	margin-bottom: 3rem;
+	position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
+.headshot {
+	max-width: 30rem;
+    margin-right: -6rem;
+    margin-top: -6rem;
+}
 
-.headshot { 
-    max-width: 29rem;
+.ctaContent {
+	max-width: 45.62rem;
+	background-color: var(--purple-900);
+	color: var(--white);
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 2rem;
+    max-height: 25.68rem;
+    max-width: 45.62rem;
+}
+
+.ctaContent strong {
+	font-size: 3.5rem;
+}
+
+.ctaContent p {
+	font-size: 18px;
+	font-family: "Manrope", sans-serif;
+	line-height: 180%;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+.circleLarge {
+	position: absolute;
+	bottom: 0;
+    left: 0;
+	max-width: 10.62rem;
 }

@@ -1,8 +1,5 @@
-import styles from "./Button.module.css"
+import styles from "./Button.module.css";
 
-export function Button() {
-	return (
-    <button className={styles.buttonPrimary}>Learn More</button>
-
-)
+export function Button(props) {
+	return <button className={styles.buttonPrimary}>{props.textbtn}</button>;
 }
