@@ -1,0 +1,32 @@
+.information {
+	color: var(--purple-900);
+	font-family: "Fraunces", serif;
+	max-width: 21.875rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    
+}
+
+.information span {
+	border: 0.0625rem solid var(--purple-900);
+	border-radius: 100px;
+	height: 3.125rem;
+	width: 3.125rem;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.875rem;
+}
+
+.information h2 {
+	font-size: 2rem;
+	line-height: 120%;
+	letter-spacing: 0rem;
+	margin-top: 3.5rem;
+}
+
+.information p {
+	text-align: center;
+}
